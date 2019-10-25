@@ -1,0 +1,72 @@
+header {
+    background-color: #555;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 25%;
+    height: 300px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 10px
+}
+
+article {
+    float: left;
+    padding: 5px;
+    width: 75%
+}
+
+.thumbnail-section {
+    width: 75%;
+    float: left;
+    padding: 30px;
+    
+}
+.thumbnail-section a {
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+
+.thumbnail-section a figure {
+    height: 10vh;
+}
+
+.thumbnail-section a figure img {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+section:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+@media (max-width: 1000px) {
+
+    nav,
+    article, .thumbnail-section {
+        width: 100%;
+        height: auto;
+    }
+}
